@@ -1,11 +1,19 @@
 # word_graph2020
 
-#### 1. Aggregate Data from Gutenburg
-   Plan A: 17th century (50) -- 19th century (50) -- 21st century (50)
-   
-   Plan B: 1800-1820 (50) -- 1900-1920 (50) -- 2000-2020 (50)
+Object
+
+- Figuring out corlocation of words ( 3,4,5gram... )
+- Target word n - frequency , impoortancy 
+- Behavior of words based on target word
+- Graph Visualization
 
 
-#### 2. Pre-processing Data by using NLTK or StanfordCoreNLP
-   1. Segmentation and lemmatization
-   
+### 1. Use data on google n-gram fiction.
+
+http://storage.googleapis.com/books/ngrams/books/datasetsv2.html
+
+
+### 2. Project to vector.
+
+Word2Vec 
+
