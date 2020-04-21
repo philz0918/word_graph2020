@@ -4,7 +4,7 @@ Diachronic changes of language include changes in all aspects of language, in wh
 
 1. Train word embeddings with lemmatized words and create networks for each time period with word embeddings, then check the target words by doing network analysis. Target words, such like 'awful', 'pretty', etc. (We would collect words from lexical semantics papers)
 
-2. Train word embeddings with word_pos, and create networks, check the role that part-of-speech plays in word meaning evolution.
+2. Train word embeddings with word_pos, and create networks, check the role that part-of-speech plays in word meaning evolution, that is, when a word has two or more part-of-speech, the word functions differently in a sentence, its syntactic and semantic context would be different as well. We would like to see how a word's neighbors are different when it has multiple part-of-speech.
 
 
 Object
