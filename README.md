@@ -7,20 +7,33 @@ Diachronic changes of language include changes in all aspects of language, in wh
 2. Train word embeddings with word_pos, and create networks, check the role that part-of-speech plays in word meaning evolution, that is, when a word has two or more part-of-speech, the word functions differently in a sentence, its syntactic and semantic context would be different as well. We would like to see how a word's neighbors are different when it has multiple part-of-speech.
 
 
-Object
+## Research Question
 
-- Figuring out corlocation of words ( 3,4,5gram... )
-- Target word n - frequency , impoortancy 
-- Behavior of words based on target word
-- Graph Visualization
+(1) To find the words that have meaning changes through time, that is, we compare 17th, 19th and 20th century English literatures.
 
-
-### 1. Use data on google n-gram fiction.
-
-http://storage.googleapis.com/books/ngrams/books/datasetsv2.html
+(2) In order to get good result for (1), we need to figure out the best representation of word, i.e., word embeddings.
 
 
-### 2. Project to vector.
+## Data
 
-Word2Vec 
+17th, 19th and 20th English literatures downloaded from Gutenberg Project. 
+
+Google News Embeddings
+
+## Method
+
+1. Word2Vec-CBOW, train word embeddings for each time period
+
+2. Randomly sample 1000 words from the words that appear in all time periods
+
+3. for each word, find its frequency, and calculate the Jaccard Efficient $\frac{A\cap B}{A\cup B}$
+
+4. find threshold for word meaning change
+
+5. select examplars
+
+6. using target words from Jurafsky's paper to see how they behave in our model.
+
+
+
 
