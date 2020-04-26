@@ -22,7 +22,7 @@ Google News Embeddings
 
 ## Method
 
-1. Word2Vec-CBOW, train word embeddings for each time period
+1. Word2Vec-skip-gram, train word embeddings for each time period
 
 2. Randomly sample 1000 words from the words that appear in all time periods
 
