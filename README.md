@@ -26,8 +26,7 @@ Google News Embeddings
 
 2. Randomly sample 1000 words from the words that appear in all time periods
 
-3. for each word, find its frequency, and calculate the Jaccard Efficient $\frac{A\cap B}{A\cup B}$
-
+3. for each word, find its frequency, and calculate the Jaccard Efficient.
 4. find threshold for word meaning change
 
 5. select examplars
