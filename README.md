@@ -1,4 +1,4 @@
-# word_graph2020
+# English Lexical Semantic Evolution across Time
 
 Diachronic changes of language include changes in all aspects of language, in which changes in lexical meaning are comparatively fast than other aspects, such like phonological variations and syntactic structures. Lexical meaning evolution always endures a complicate path, therefore in this project. Based on the data we have collected, that is, 400 English literature books between 19th and 20th century (200 for each century) and check how the word meanings change through time in two perspectives.
 
